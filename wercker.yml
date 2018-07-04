@@ -18,7 +18,7 @@ build:
             tag: $WERCKER_GIT_COMMIT
             ports: "8080"
             username: gse00014445/api.user
-            password: 1{bgo+{+hB1$EtV:GO9w
+            password: dOUbLe@9PuSher
             repository: iad.ocir.io/gse00014445/myhello
             registry: https://iad.ocir.io/v2
 
