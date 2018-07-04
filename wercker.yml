@@ -19,7 +19,7 @@ build:
             ports: "8080"
             username: gse00014445/api.user
             password: 1{bgo+{+hB1$EtV:GO9w
-            repository: iad.ocir.io/gse00014445/api.user/wercker-oke-demo:latest
+            repository: iad.ocir.io/gse00014445/riceo
             registry: https://iad.ocir.io/v2
 
 deploy-to-kubernetes:
