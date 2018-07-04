@@ -17,9 +17,9 @@ build:
             working-dir: $WERCKER_ROOT
             tag: $WERCKER_GIT_COMMIT
             ports: "8080"
-            username: gse00014445/api.user
-            password: 1{bgo+{+hB1$EtV:GO9w
-            repository: iad.ocir.io/gse00014445/riceo
+            username: $DOCKER_USERNAME
+            password: $DOCKER_PASSWORD
+            repository: $DOCKER_REPO
             registry: https://iad.ocir.io/v2
 
 deploy-to-kubernetes:
