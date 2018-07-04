@@ -1,5 +1,5 @@
 build:
-    box: python:2.7
+    box: python:2.7 
     steps:
 
     # Check that our application's tests are passing. Since this is a python
