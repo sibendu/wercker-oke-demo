@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: get-ip-server
-        image: ${DOCKER_REPO}:${WERCKER_GIT_COMMIT}
+        image: iad.ocir.io/gse00014445/myhello:latest
         ports:
         - name: get-ip-server
           containerPort: 8080
